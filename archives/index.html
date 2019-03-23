@@ -101,7 +101,7 @@
 <meta name="description" content="小刀田田,计算机视觉,AI,deep learning">
 <meta property="og:type" content="website">
 <meta property="og:title" content="小刀田田">
-<meta property="og:url" content="https://houhaopeng.github.io/archives/index.html">
+<meta property="og:url" content="https://knifefield.github.io/archives/index.html">
 <meta property="og:site_name" content="小刀田田">
 <meta property="og:description" content="小刀田田,计算机视觉,AI,deep learning">
 <meta property="og:locale" content="zh-Hans">
@@ -137,7 +137,7 @@
 
 
 
-  <link rel="canonical" href="https://houhaopeng.github.io/archives/">
+  <link rel="canonical" href="https://knifefield.github.io/archives/">
 
 
 
@@ -535,7 +535,7 @@
     本页点击 <span id="busuanzi_value_page_pv"></span> 次
   |  本站总点击 <span id="busuanzi_value_site_pv"></span> 次
   |  您是第 <span id="busuanzi_value_site_uv"></span> 位访客
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 
 
@@ -546,36 +546,12 @@
 
 <div>
 <!--添加网站的运行时间-->
-<span id="sitetime"> <br></span>
-<script language="javascript">
-	function siteTime(){
-		window.setTimeout("siteTime()", 1000);
-		var seconds = 1000
-		var minutes = seconds * 60
-		var hours = minutes * 60
-		var days = hours * 24
-		var years = days * 365
-
-		var today = new Date()
-		var todayYear = today.getFullYear()
-		var todayMonth = today.getMonth()
-		var todayDate = today.getDate()
-		var todayHour = today.getHours()
-		var todayMinute = today.getMinutes()
-		var todaySecond = today.getSeconds()
-		var t1 = Date.UTC(2019,3,18,12,00,00)
-		var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
-		var diff = t2-t1
-
-		var diffYears = Math.floor(diff/years)
-		var diffDays = Math.floor((diff/days)-diffYears*365)
-		var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
-		var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
-		var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
-		document.getElementById("sitetime").innerHTML=" 本站已运行"+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒<br>"
-	}
-	siteTime()
-</script>
+<span id="runtime_span"></span>
+<script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
+Date("3/16/2019 15:32:00");
+Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
+a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
+runtime_span.innerHTML="本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
 </div>
         
 
