@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://houhaopeng.github.io/"/>
-  <updated>2019-03-22T02:24:45.431Z</updated>
+  <updated>2019-03-24T11:28:45.411Z</updated>
   <id>https://houhaopeng.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>colortool</title>
+    <link href="https://houhaopeng.github.io/colortool/"/>
+    <id>https://houhaopeng.github.io/colortool/</id>
+    <published>2019-03-24T11:28:45.000Z</published>
+    <updated>2019-03-24T11:28:45.411Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>my first blog</title>

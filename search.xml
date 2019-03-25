@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[colortool]]></title>
+    <url>%2Fcolortool%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[my first blog]]></title>
     <url>%2Fmy-first-blog%2F</url>
     <content type="text"><![CDATA[这是我的使用hexo创建的第一篇博客我目前计算机视觉硕士在读，我将在这里分享 - 我的日常随笔 - 计算机相关技术博文]]></content>
